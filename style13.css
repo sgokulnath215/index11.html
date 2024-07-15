@@ -1,0 +1,100 @@
+/*Reset default brower styles*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Global styles*/
+body{
+    font-family:Arial,sans-serify;
+    line-height: 1.6;
+    background-color: aqua;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header{
+    background-color: black;
+    color: blue;
+    padding: 10px 0;
+}
+
+header h1{
+    float:left;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a{
+    color: brown;
+    text-decoration: none;
+}
+
+#hero{
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: blueviolet;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2{
+    font-size: 3em ;
+    margin-bottom: 20px;
+}
+
+#hero p{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+
+}
+
+.btn{
+    display: inline-block;
+    background-color: red;
+    color: greenyellow;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h2{
+    margin-left: 40px;
+
+}
+
+.feature{
+    margin-bottom: 30px;
+}
+
+footer h3{
+    font-size: 2em;
+}
+
+footer{
+    background-color:blue
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width:100% ;
+}
